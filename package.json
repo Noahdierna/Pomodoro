@@ -2,7 +2,7 @@
   "name": "Pomodoro",
   "version": "1.0.0",
   "description": "",
-  "main": ".eslintrc.js",
+  "main": "index.js",
   "dependencies": {
     "babel-eslint": "^10.1.0",
     "eslint": "^7.0.0",
