@@ -89,7 +89,9 @@ class Timer extends React.Component {
 
                         </section>
                         <section className="timer-actions">
-                              <button onClick={this.play}>Play</button>
+                              <button
+                                    disabled={props.isPlay === true ? "disabled" : ""}
+                                    onClick={this.play} > Play</button>
                               <button onClick={this.stop}>Stop</button>
                               <button onClick={this.reset}>Refresh</button>
                         </section>

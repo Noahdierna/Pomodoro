@@ -28575,8 +28575,9 @@ var Timer = /*#__PURE__*/function (_React$Component) {
       }, this.state.timerSecond === 0 ? '00' : this.state.timerSecond < 10 ? "0" + this.state.timerSecond : this.state.timerSecond)), /*#__PURE__*/_react.default.createElement("section", {
         className: "timer-actions"
       }, /*#__PURE__*/_react.default.createElement("button", {
+        disabled: props.isPlay === true ? "disabled" : "",
         onClick: this.play
-      }, "Play"), /*#__PURE__*/_react.default.createElement("button", {
+      }, " Play"), /*#__PURE__*/_react.default.createElement("button", {
         onClick: this.stop
       }, "Stop"), /*#__PURE__*/_react.default.createElement("button", {
         onClick: this.reset
@@ -28808,7 +28809,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "46733" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "37363" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
